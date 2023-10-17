@@ -11,3 +11,10 @@ console.log(firstName);
 
 let PI = 3.1416
 console.log(PI);
+
+
+//primitive data type
+let year;
+console.log(typeof year);
+console.log(typeof null);
+
