@@ -30,6 +30,19 @@ console.log(age);
 const birthYear = 1994;
 birthYear = 1994; // it cannot reassign a variable and need an initial value
 
-//
+//operator
 
+const ageJonas = 2037 - 1991;
+console.log(ageJonas);
+
+const jonanNew = `I'am ${birthYear}`;
+console.log(jonanNew);
+
+
+//string
+const firstName = 'Dip;';
+const job = 'SOftware engineer';
+const birthYear = 1994;
+
+const dip = `I am ${firstName}  and ${job} and ${birthYear}`;
 
