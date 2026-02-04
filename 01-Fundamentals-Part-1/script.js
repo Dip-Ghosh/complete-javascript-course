@@ -46,36 +46,54 @@
 // x = y = 26 - 10 -5;
 // console.log(x, y);
 
-const firstName = 'John';
-const job = 'teacher';
-const birthday = 1991;
-const year = 2037;
-
-const jonas = "I'm " + firstName + ", a " + (year - birthday) + " years old "  + job + "!" ;
-console.log(jonas);
-
-//template literal - assemble multiple pieces into a single
-
-const jonasNew = `I'm ${firstName}, a ${year - birthday} years old ${job}`;
-console.log(jonasNew);
-
-console.log(`${firstName} ${job}`);
-
-console.log('String with \n\
-muitple \n\
-line');
-
-console.log(`string 
-multiple
-line`);
-
-
+// const firstName = 'John';
+// const job = 'teacher';
+// const birthday = 1991;
+// const year = 2037;
+//
+// const jonas = "I'm " + firstName + ", a " + (year - birthday) + " years old "  + job + "!" ;
+// console.log(jonas);
+//
+// //template literal - assemble multiple pieces into a single
+//
+// const jonasNew = `I'm ${firstName}, a ${year - birthday} years old ${job}`;
+// console.log(jonasNew);
+//
+// console.log(`${firstName} ${job}`);
+//
+// console.log('String with \n\
+// muitple \n\
+// line');
+//
+// console.log(`string
+// multiple
+// line`);
 
 
+// control structure
+// const age = 17;
+// const isOldEnough = age >= 18;
+//
+// if (age >= 18) {
+//     console.log('Sara can start driving license');
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sara is too young. wait another ${yearsLeft} years:`);
+// }
+
+// const birthYear = 2012;
+// let  century;
+//
+// if (birthYear <= 2000) {
+//      century = 20;
+// } else {
+//      century = 21;
+// }
+//
+// console.log(century);
 
 
-
-
+console.log(332/5);
 
 
 
