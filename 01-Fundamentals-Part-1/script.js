@@ -42,6 +42,46 @@
 // console.log(ageSearch > age);
 // console.log(25 - 10 - 5);
 
-let x, y;
-x = y = 26 - 10 -5;
-console.log(x, y);
+// let x, y;
+// x = y = 26 - 10 -5;
+// console.log(x, y);
+
+const firstName = 'John';
+const job = 'teacher';
+const birthday = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ", a " + (year - birthday) + " years old "  + job + "!" ;
+console.log(jonas);
+
+//template literal - assemble multiple pieces into a single
+
+const jonasNew = `I'm ${firstName}, a ${year - birthday} years old ${job}`;
+console.log(jonasNew);
+
+console.log(`${firstName} ${job}`);
+
+console.log('String with \n\
+muitple \n\
+line');
+
+console.log(`string 
+multiple
+line`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
