@@ -106,9 +106,45 @@
 // console.log(String(23), 23);
 
 // type coercion
-console.log("Hello " + 23 + " World!");
-console.log(1 + '23' -'10' - 3);
+// console.log("Hello " + 23 + " World!");
+// console.log(1 + '23' -'10' - 3);
+//
+// let n = '1' + 1;
+// n = n-1;
+// console.log(n);
 
-let n = '1' + 1;
-n = n-1;
-console.log(n);
+// 5 falsy vales : 0, ', undefined, null, NaN
+// console.log(Boolean(0));
+// console.log(Boolean(''));
+// console.log(Boolean(undefined));
+// console.log(Boolean({}));
+// console.log(Boolean(null));
+// console.log(Boolean(NaN));
+
+// const money = 0;
+// if (money) {
+//     console.log("Don't spend it all");
+// } else {
+//     console.log("You should get a job");
+// }
+
+// let height = {};
+// if (height){
+//     console.log(height);
+// } else {
+//     console.log('height is not defined');
+// }
+
+// const age = 18;
+//
+// if (age === 18) console.log("Welcome to the Fundamentals Part 1!");
+// else console.log("Welcome to the Fundamentals Part 2!");
+
+// const input= prompt("what is your number?");
+// console.log(input);
+//
+// if (input == 23){
+//     console.log('Cool! 23 is an amazing number!')
+// } else if (input !== 7){
+//     console.log('Cool! 7 is an amazing number!')
+// }
