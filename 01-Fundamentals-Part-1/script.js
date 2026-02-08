@@ -148,3 +148,71 @@
 // } else if (input !== 7){
 //     console.log('Cool! 7 is an amazing number!')
 // }
+
+// boolean operator
+// const hasDriverLicense = true;
+// const hasGoodVision = true
+//
+// console.log(hasGoodVision && hasDriverLicense);
+// console.log(hasGoodVision || hasDriverLicense);
+// console.log(hasGoodVision && !hasDriverLicense);
+// console.log(hasGoodVision || !hasDriverLicense);
+// console.log(!hasGoodVision && hasDriverLicense);
+// console.log(!hasGoodVision || hasDriverLicense);
+
+//switch statement
+// const day = 'Sunday';
+
+// switch (day) {
+//     case 'Sunday':
+//         console.log('Sunday');
+//         break;
+//     case 'Monday':
+//         console.log('Monday');
+//         break;
+//     case 'Tuesday':
+//         console.log('Tuesday');
+//         break;
+//     case 'Wednesday':
+//         console.log('Wednesday');
+//         break;
+//     case 'Thursday':
+//         console.log('Thursday');
+//         break;
+//     case 'Friday':
+//     case 'Saturday':
+//         console.log('friday -Saturday');
+//         break;
+//     default:
+//         console.log(`Unknown day ${day}`);
+//
+// }
+//
+// if (day === 'Sunday') {
+//     console.log('Sunday');
+// }
+// if (day === 'Monday') {
+//     console.log('Monday');
+// }
+// if (day === 'Tuesday') {
+//     console.log('Tuesday');
+// }
+// if (day === 'Wednesday') {
+//     console.log('Wednesday');
+// }
+
+// statement & expression
+// a piece of code that produce a value like 4+3 is called expression
+// example.  4 +4 , 1991, true
+// statement is like complete sentence
+// if (23> 10) console.log('Fundamentals Part 1');
+// console.log(`I'm ${2024-11}`);
+// condition operator or ternary
+// const age = 3;
+// age >= 18  ? console.log(age) : console.log(`${age} is not allowed to drink wine`);
+// console.log(`I like to drink ${age>= 18 ? 'wine' : 'lose'}`);
+
+// coding challenges
+const bill = 430;
+const tip =  (bill >= 50 && bill <= 300) ? bill * (15/100) : bill * (20/100);
+console.log(`The bill was ${bill} , the tips was ${tip}, and the total value is ${bill + tip} `);
