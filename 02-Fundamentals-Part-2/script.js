@@ -10,8 +10,8 @@ const passTest = true;
 if (passTest) hasDriversLicense = true;
 if (hasDriversLicense) console.log('I can drive');
 
-const interface = 'Audio';
-const private = 345;
+// const interface = 'Audio';
+// const private = 345;
 
 /**
  * Functions -
@@ -78,18 +78,28 @@ console.log(yearsUntilRetirement(1991, 'Dip Ghosh'));
 
 const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
 
-const scoreDolphins = calcAverage(44, 23, 71);
-const scoreKoalas = calcAverage(85, 54, 41);
+let scoreDolphins = calcAverage(44, 23, 71);
+let scoreKoalas = calcAverage(65, 54, 49);
+
+console.log(scoreDolphins,scoreKoalas);
 
 const checkWinner = (avgDolphins, avgKoalas) => {
-    if (avgDolphins  >= 2 * avgKoalas) {
-         return `Dolphins wins (${avgDolphins} vs ${avgKoalas})`;
+    if (avgDolphins  >= avgKoalas * 2) {
+         console.log(`Dolphins wins (${avgDolphins} vs. ${avgKoalas})`);
     }
-    else if (avgKoalas  >= 2 * avgDolphins) {
-        return `Kolas wins (${avgKoalas} vs ${avgDolphins})`;
+    else if (avgKoalas  >= avgDolphins * 2) {
+        console.log(`Kolas wins (${avgKoalas} vs. ${avgDolphins})`);
     } else {
-        return `No team wins...`;
+        console.log("No team wins...");
     }
 }
 
-console.log(checkWinner(scoreDolphins, scoreKoalas));
+checkWinner(scoreDolphins, scoreKoalas);
+
+checkWinner(578, 111);
+
+scoreDolphins = calcAverage(85,54, 41);
+scoreKoalas = calcAverage(23, 34, 27);
+
+console.log(scoreDolphins,scoreKoalas);
+checkWinner(scoreDolphins, scoreKoalas);
