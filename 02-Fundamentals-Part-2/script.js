@@ -103,3 +103,21 @@ scoreKoalas = calcAverage(23, 34, 27);
 
 console.log(scoreDolphins,scoreKoalas);
 checkWinner(scoreDolphins, scoreKoalas);
+
+/**
+ * Array
+ */
+
+const friends = ['Dip', 'Dip Ghosh', 'Dipu'];
+console.log(friends[0]);
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+const years = new Array('2021', '1099', '2020');
+console.log(years);
+
+friends[2] = 'Jay';
+console.log(friends);
+
+const jonas = ['jonas', 'Ai', 2037-1991, friends];
+console.log(jonas);
