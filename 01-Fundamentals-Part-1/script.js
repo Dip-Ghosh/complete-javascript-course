@@ -2,13 +2,13 @@
  * Basic operation
  */
 
-console.log("Hello World!");
-let js = "amazing";
+console.log('Hello World!');
+let js = 'amazing';
 if (js === 'amazing') console.log('Javascript is fun');
-js = "boring";
+js = 'boring';
 if (js === 'amazing') console.log('Javascript is fun');
-40+8+23+10
-console.log(40+8+23+10);
+40 + 8 + 23 + 10;
+console.log(40 + 8 + 23 + 10);
 
 /**
  * math operator
@@ -19,7 +19,7 @@ const now = 2027;
 const ageJonas = now - 1991;
 const ageSearch = now - 2018;
 console.log(ageJonas, ageSearch);
-console.log(ageJonas * 2, ageSearch/10, 2**3);
+console.log(ageJonas * 2, ageSearch / 10, 2 ** 3);
 const firstName = 'John';
 const lastName = 'Doe';
 console.log(firstName + ' ' + lastName);
@@ -28,7 +28,7 @@ console.log(firstName + ' ' + lastName);
  * assignment operator
  */
 
-let x = 10+5;
+let x = 10 + 5;
 x += 10;
 x *= 4;
 x /= 25;
@@ -52,13 +52,13 @@ const ageSearch = now - 2018;
 console.log(ageSearch > age);
 console.log(25 - 10 - 5);
 let x, y;
-x = y = 26 - 10 -5;
+x = y = 26 - 10 - 5;
 console.log(x, y);
 const firstName = 'John';
 const job = 'teacher';
 const birthday = 1991;
 const year = 2037;
-const jonas = "I'm " + firstName + ", a " + (year - birthday) + " years old "  + job + "!" ;
+const jonas = "I'm " + firstName + ', a ' + (year - birthday) + ' years old ' + job + '!';
 console.log(jonas);
 
 /**
@@ -68,9 +68,11 @@ console.log(jonas);
 const jonasNew = `I'm ${firstName}, a ${year - birthday} years old ${job}`;
 console.log(jonasNew);
 console.log(`${firstName} ${job}`);
-console.log('String with \n\
+console.log(
+  'String with \n\
 muitple \n\
-line');
+line'
+);
 console.log(`string
 multiple
 line`);
@@ -83,23 +85,23 @@ const age = 17;
 const isOldEnough = age >= 18;
 
 if (age >= 18) {
-    console.log('Sara can start driving license');
+  console.log('Sara can start driving license');
 } else {
-    const yearsLeft = 18 - age;
-    console.log(`Sara is too young. wait another ${yearsLeft} years:`);
+  const yearsLeft = 18 - age;
+  console.log(`Sara is too young. wait another ${yearsLeft} years:`);
 }
 
 const birthYear = 2012;
-let  century;
+let century;
 
 if (birthYear <= 2000) {
-     century = 20;
+  century = 20;
 } else {
-     century = 21;
+  century = 21;
 }
 
 console.log(century);
-console.log(332/5);
+console.log(332 / 5);
 
 /**
  * type conversion
@@ -116,11 +118,11 @@ console.log(String(23), 23);
  * type coercion
  */
 
-console.log("Hello " + 23 + " World!");
-console.log(1 + '23' -'10' - 3);
+console.log('Hello ' + 23 + ' World!');
+console.log(1 + '23' - '10' - 3);
 
 let n = '1' + 1;
-n = n-1;
+n = n - 1;
 console.log(n);
 
 /**
@@ -135,30 +137,30 @@ console.log(Boolean(NaN));
 
 const money = 0;
 if (money) {
-    console.log("Don't spend it all");
+  console.log("Don't spend it all");
 } else {
-    console.log("You should get a job");
+  console.log('You should get a job');
 }
 
 let height = {};
-if (height){
-    console.log(height);
+if (height) {
+  console.log(height);
 } else {
-    console.log('height is not defined');
+  console.log('height is not defined');
 }
 
 const age = 18;
 
-if (age === 18) console.log("Welcome to the Fundamentals Part 1!");
-else console.log("Welcome to the Fundamentals Part 2!");
+if (age === 18) console.log('Welcome to the Fundamentals Part 1!');
+else console.log('Welcome to the Fundamentals Part 2!');
 
-const input= prompt("what is your number?");
+const input = prompt('what is your number?');
 console.log(input);
 
-if (input == 23){
-    console.log('Cool! 23 is an amazing number!')
-} else if (input !== 7){
-    console.log('Cool! 7 is an amazing number!')
+if (input == 23) {
+  console.log('Cool! 23 is an amazing number!');
+} else if (input !== 7) {
+  console.log('Cool! 7 is an amazing number!');
 }
 
 /**
@@ -166,7 +168,7 @@ if (input == 23){
  * @type {boolean}
  */
 const hasDriverLicense = true;
-const hasGoodVision = true
+const hasGoodVision = true;
 
 console.log(hasGoodVision && hasDriverLicense);
 console.log(hasGoodVision || hasDriverLicense);
@@ -182,41 +184,40 @@ console.log(!hasGoodVision || hasDriverLicense);
 const day = 'Sunday';
 
 switch (day) {
-    case 'Sunday':
-        console.log('Sunday');
-        break;
-    case 'Monday':
-        console.log('Monday');
-        break;
-    case 'Tuesday':
-        console.log('Tuesday');
-        break;
-    case 'Wednesday':
-        console.log('Wednesday');
-        break;
-    case 'Thursday':
-        console.log('Thursday');
-        break;
-    case 'Friday':
-    case 'Saturday':
-        console.log('friday -Saturday');
-        break;
-    default:
-        console.log(`Unknown day ${day}`);
-
+  case 'Sunday':
+    console.log('Sunday');
+    break;
+  case 'Monday':
+    console.log('Monday');
+    break;
+  case 'Tuesday':
+    console.log('Tuesday');
+    break;
+  case 'Wednesday':
+    console.log('Wednesday');
+    break;
+  case 'Thursday':
+    console.log('Thursday');
+    break;
+  case 'Friday':
+  case 'Saturday':
+    console.log('friday -Saturday');
+    break;
+  default:
+    console.log(`Unknown day ${day}`);
 }
 
 if (day === 'Sunday') {
-    console.log('Sunday');
+  console.log('Sunday');
 }
 if (day === 'Monday') {
-    console.log('Monday');
+  console.log('Monday');
 }
 if (day === 'Tuesday') {
-    console.log('Tuesday');
+  console.log('Tuesday');
 }
 if (day === 'Wednesday') {
-    console.log('Wednesday');
+  console.log('Wednesday');
 }
 
 /**
@@ -226,21 +227,21 @@ if (day === 'Wednesday') {
  * statement is like complete sentence
  */
 
-if (23> 10) console.log('Fundamentals Part 1');
-console.log(`I'm ${2024-11}`);
+if (23 > 10) console.log('Fundamentals Part 1');
+console.log(`I'm ${2024 - 11}`);
 
 /**
  * condition operator or ternary
  * @type {number}
  */
 const age = 3;
-age >= 18  ? console.log(age) : console.log(`${age} is not allowed to drink wine`);
-console.log(`I like to drink ${age>= 18 ? 'wine' : 'lose'}`);
+age >= 18 ? console.log(age) : console.log(`${age} is not allowed to drink wine`);
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'lose'}`);
 
 /**
  * coding challenges
  * @type {number}
  */
 const bill = 430;
-const tip =  (bill >= 50 && bill <= 300) ? bill * (15/100) : bill * (20/100);
+const tip = bill >= 50 && bill <= 300 ? bill * (15 / 100) : bill * (20 / 100);
 console.log(`The bill was ${bill} , the tips was ${tip}, and the total value is ${bill + tip} `);
